@@ -1,0 +1,23 @@
+{
+  "name": "gulp-jasmine-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "jasmine": "^2.5.2",
+    "jasmine-co": "^1.2.1",
+    "gulp-jasmine": "^2.4.2"
+  },
+  "scripts": {
+    "test": "node --harmony_async_await `which gulp` test",
+    "debug": "node --harmony_async_await debug index.js",
+    "start": "node --harmony_async_await index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
